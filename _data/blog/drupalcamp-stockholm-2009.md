@@ -3,8 +3,7 @@ template: BlogPost
 path: /drupalcamp-stockholm-2009
 date: 2009-02-06T07:08:00.000Z
 title: Drupalcamp Stockholm 2009
-metaDescription: |
-  Kort rapport från Drupalcamp Stockholm 2009.
+metaDescription: Kort rapport från Drupalcamp Stockholm 2009.
 thumbnail: ''
 ---
 Kort rapport från Drupalcamp Stockholm 2009.
