@@ -25,7 +25,7 @@ export default ({ children }) => {
       </header>
       {children}
       <footer className="site-footer">
-        <p>&copy; {new Date().getFullYear()} Delog &bull; Crafted with <span role="img" aria-label="love">❤️</span> by <a href="https://w3layouts.com">W3Layouts</a></p>
+        <p>&copy; {new Date().getFullYear()} David Holmlund &bull; Sajten drivs med GatsbyJS och stora mängder kaffe &bull; En fork av <a href="https://github.com/W3Layouts/gatsby-starter-delog">Delog.</a></p>
       </footer>
     </div>
   )

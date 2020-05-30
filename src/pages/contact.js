@@ -11,31 +11,31 @@ const ContactPage = ({
   return (
     <Layout>
       <Helmet>
-        <title>Contact — {site.siteMetadata.title}</title>
+        <title>Om mig — {site.siteMetadata.title}</title>
         <meta name="description" content={"Contact page of " + site.siteMetadata.description} />
       </Helmet>
       <div className="two-grids -contact">
-        <div className="post-thumbnail" style={{backgroundImage: `url('/assets/alexander-andrews-HgUDpaGPTEA-unsplash.jpg')`, marginBottom: 0}}>
-          <h1 className="post-title">Get in Touch</h1>
-          <p>Let me help you kick start your next project &rarr;</p>
+        <div className="post-thumbnail" style={{backgroundImage: `url('/assets/special.jpg')`, marginBottom: 0}}>
+          <h1 className="post-title">Om David Holmlund</h1>
+          <p>Mitt namn är David Holmlund, framtidsvisionär specialiserad på öppen källkod och med ett brinnande intresse för Linux, HTML5, Javascript och responsiv design. Till vardags är jag småbarnsfarsa, sci-fi nörd och grundare av byrån Vedervisp.
+
+            Jag har byggt system och nätverk sedan 80-talets Bulletin Board Systems och har på senare år framför allt kommit att intressera sig för människa-dator-interaktion, artificiell intelligens och hur framtidens teknik kan komma att utformas. I och med detta har jag ett stort intresse för människa-dator-interaktion och forskningsområden så som kognitionsvetenskap, artificiell intelligens och neurala nätverk.
+
+            Är född och uppvuxen i Skellefteå men bor numera i Uppsala tillsammans med min sambo Kirsten och våra underbara barn Ludwig, Emmy & Heidi.</p>
         </div>
         <div>
-          <form className="form-container" action="https://sendmail.w3layouts.com/SubmitContactForm" method="post">
+          <form className="form-container" name="dh-contact" data-netlify="true">
             <div>
-              <label htmlFor="w3lName">Name</label>
-              <input type="text" name="w3lName" id="w3lName"/>
+              <label htmlFor="dhName">Namn</label>
+              <input type="text" name="dhName" id="dhName"/>
             </div>
             <div>
-              <label htmlFor="w3lSender">Email</label>
-              <input type="email" name="w3lSender" id="w3lSender"/>
+              <label htmlFor="dhSender">Email</label>
+              <input type="email" name="dhSender" id="dhSender"/>
             </div>
             <div>
-              <label htmlFor="w3lSubject">Subject</label>
-              <input type="text" name="w3lSubject" id="w3lSubject"/>
-            </div>
-            <div>
-              <label htmlFor="w3lMessage">Message</label>
-              <textarea name="w3lMessage" id="w3lMessage"></textarea>
+              <label htmlFor="dhMessage">Meddelande</label>
+              <textarea name="dhMessage" id="dhMessage"></textarea>
             </div>
             <div style={{display: "flex", justifyContent: "flex-end"}}>
               <input type="submit" className="button -primary" style={{marginRight: 0}} />
