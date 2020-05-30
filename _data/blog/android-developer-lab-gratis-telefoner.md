@@ -3,11 +3,8 @@ template: BlogPost
 path: /android-developer-lab-gratis-telefoner
 date: 2010-02-04T06:15:00.000Z
 title: Android Developer Lab & gratis telefoner
-metaDescription: >
-  Sitter och skriver det här på tåget hem från Android Developer Lab Stockholm.
-  Det har varit en riktigt intressant kväll och jag åker hem med en sprillans ny
-  Nexus One i ryggsäcken.
-thumbnail: /assets/2010-02-04 19.42.34.jpg
+metaDescription: Sitter och skriver det här på tåget hem från Android Developer Lab Stockholm. Det har varit en riktigt intressant kväll och jag åker hem med en sprillans ny Nexus One i ryggsäcken.
+thumbnail: /assets/2010-02-04.jpg
 ---
 Sitter och skriver det här på tåget hem från Android Developer Lab Stockholm. Det har varit en riktigt intressant kväll och jag åker hem med en sprillans ny Nexus One i ryggsäcken.
 
